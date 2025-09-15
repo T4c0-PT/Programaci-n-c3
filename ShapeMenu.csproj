@@ -49,6 +49,11 @@
     <Compile Include="Figures\Square.cs" />
     <Compile Include="Figures\Shape.cs" />
     <Compile Include="Figures\Triangle.cs" />
+    <Compile Include="Game\EMelee.cs" />
+    <Compile Include="Game\Enemy.cs" />
+    <Compile Include="Game\EShooter.cs" />
+    <Compile Include="Game\GameMenu.cs" />
+    <Compile Include="Game\Player.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -11,10 +11,13 @@ namespace ShapeMenu.Figures
         protected string name;
 
         public string Name { get { return name; } }
+
         public virtual double GetArea()
         {
             return 0;
         }
+
+        
 
     }
 }

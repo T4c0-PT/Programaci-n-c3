@@ -67,7 +67,7 @@ namespace ShapeMenu.Figures
                     while (!double.TryParse(Console.ReadLine(), out s))
                         Console.WriteLine("Error, ingrese un numero");
 
-                    Square sq = new Square(s);
+                    Shape sq = new Square(s);
                     shapes.Add(sq);
                     Result($"\nEl area del cuadrado es: {sq.GetArea()}");
 
@@ -140,7 +140,7 @@ namespace ShapeMenu.Figures
                 { 
                     Shape shape = shapes[i];
                     Console.WriteLine($"{i + 1}. {shape.Name} - Área: {shape.GetArea()}");
-                
+
                 }
             }
 
