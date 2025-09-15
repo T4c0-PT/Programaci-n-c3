@@ -8,7 +8,7 @@ namespace ShapeMenu.Game
 {
     internal class EShooter : Enemy
     {
-        protected int balls = 1;
+        protected int balls = 5;
 
         public int Balls { get { return balls; } }
 

@@ -10,8 +10,6 @@ namespace ShapeMenu
 {
     internal class Program
     {
-        private List<Menu> menu = new List<Menu>();
-
         static void Main(string[] args)
         {
             Menu game = new GameMenu();
